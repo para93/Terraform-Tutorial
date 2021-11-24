@@ -16,7 +16,7 @@ pipeline {
    agent  any
         options {
                 timestamps ()
-                catchError('xterm')
+                
             }
     stages {
         stage('checkout') {
